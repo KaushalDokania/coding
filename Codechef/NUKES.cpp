@@ -8,6 +8,7 @@
             1 1 0
  */
 
+/* --- old code ----
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -60,4 +61,17 @@ int main()
     printArray();
     printf("Hello world");
     return 0;
+}
+------------- */
+
+#include <stdio.h>
+
+int main() {
+	int a,n,k,i=0;
+	scanf("%d %d %d", &a, &n, &k);
+	while(k--){
+		printf("%d ", a%(n+1));
+		a = a/(n+1);
+	}
+	return 0;
 }
