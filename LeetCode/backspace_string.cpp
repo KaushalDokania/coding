@@ -1,11 +1,13 @@
+/* Enter two strings(# means a backspace) and compare if the two strings are equal
+    Possible cases:
+    abc#d    abc##d    a#b#    ##abc
+*/
+
 #include <stdio.h>
 #include <iostream>
 #include <string.h>
 
-/* Possible cases:
-    abc#d    abc##d    a#b#    ##abc
-*/
-char* getString(char *str) {
+char* getFinalString(char *str) {
     char *rp, *wp;                      // read_ptr and write_ptr
     if (str) {
         wp = str-1;
@@ -13,7 +15,7 @@ char* getString(char *str) {
         while(*rp) {
             if (*rp == '#') {   
                 *wp = '\0';
-                if(wp>=str)
+                if(wp >= str)             // if current string is empty then write_ptr should not move back further
                     --wp;
                 *rp = '\0';
             }
@@ -31,8 +33,8 @@ char* getString(char *str) {
 }
 
 bool backspaceCompare(char * S, char * T){
-    getString(S);
-    getString(T);
+    getFinalString(S);
+    getFinalString(T);
     
     printf("str1: ");puts(S);
     printf("str2: ");puts(T);
@@ -49,9 +51,9 @@ int main() {
     printf("Enter 2nd string: ");scanf("%s", str2);
 
     if(backspaceCompare(str1, str2))
-        printf("Equql strings");
+        printf("Strings are EQUAL");
     else
-        printf("string are not equal");
+        printf("Strings are NOT EQUAL");
     
     return 0;
 }
