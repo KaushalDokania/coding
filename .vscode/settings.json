@@ -1,0 +1,20 @@
+{
+    "python.pythonPath": "/usr/bin/python3",
+    "files.associations": {
+        "*.tcc": "c",
+        "istream": "c",
+        "streambuf": "c",
+        "cstdio": "c",
+        "string_view": "c",
+        "shared_mutex": "c",
+        "functional": "c",
+        "regex": "c"
+    },
+    "java.project.sourcePaths": [
+        "Platforms/LeetCode/Practice",
+        "Platforms/LeetCode",
+        "Language/Java",
+        "DSA"
+    ],
+    "java.dependency.packagePresentation": "hierarchical"
+}

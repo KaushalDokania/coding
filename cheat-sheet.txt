@@ -1,0 +1,3 @@
+
+# Sort an array list, first by length(descending) and then lexicographically(ascending)
+Collections.sort(list, (a,b) -> a.length() != b.length() ? -Integer.compare(a.length(), b.length()) :  a.compareTo(b));
