@@ -3,5 +3,12 @@
 		{
 			"path": "."
 		}
-	]
+	],
+	"settings": {
+		"java.dependency.packagePresentation": "hierarchical",
+		"java.project.sourcePaths": [
+			"Platforms/LeetCode/Practice",
+			"DSA"
+		]
+	}
 }

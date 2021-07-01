@@ -6,6 +6,97 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Temp",
+            "request": "launch",
+            "mainClass": "practice.Temp",
+            "projectName": "codespace_924310a9"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinHeap",
+            "request": "launch",
+            "mainClass": "DataStructures.BinaryHeap.MinHeap",
+            "projectName": "codespace_924310a9"
+        },
+        {
+            "type": "java",
+            "name": "Launch BalanceBST",
+            "request": "launch",
+            "mainClass": "DataStructures.BST.BalanceBST",
+            "projectName": "codespace_924310a9"
+        },
+        {
+            "type": "java",
+            "name": "Launch PredecessorSuccessor",
+            "request": "launch",
+            "mainClass": "DataStructures.BST.PredecessorSuccessor",
+            "projectName": "codespace_924310a9"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryTree",
+            "request": "launch",
+            "mainClass": "DataStructures.BinaryTree.BinaryTree",
+            "projectName": "codespace_924310a9"
+        },
+        {
+            "type": "java",
+            "name": "Launch TreeFromArray",
+            "request": "launch",
+            "mainClass": "TreeFromArray",
+            "projectName": "codespace_924310a9"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinarySearchTree",
+            "request": "launch",
+            "mainClass": "DataStructures.BST.BinarySearchTree",
+            "projectName": "codespace_924310a9"
+        },
+        {
+            "type": "java",
+            "name": "Launch Temp3",
+            "request": "launch",
+            "mainClass": "Temp3",
+            "projectName": "codespace_924310a9"
+        },
+        {
+            "type": "java",
+            "name": "Launch InorderTraversal",
+            "request": "launch",
+            "mainClass": "InorderTraversal",
+            "projectName": "codespace_924310a9"
+        },
+        {
+            "type": "java",
+            "name": "Launch MatchstickSquare",
+            "request": "launch",
+            "mainClass": "Platforms.LeetCode.challenges.june2021.MatchstickSquare",
+            "projectName": "codespace_924310a9"
+        },
+        {
+            "type": "java",
+            "name": "Launch Temp2",
+            "request": "launch",
+            "mainClass": "Platforms.LeetCode.Practice.Temp2",
+            "projectName": "codespace_924310a9"
+        },
+        {
+            "type": "java",
+            "name": "Launch Temp",
+            "request": "launch",
+            "mainClass": "Temp",
+            "projectName": "codespace_924310a9"
+        },
+        {
+            "type": "java",
+            "name": "Launch MorrisTraversal",
+            "request": "launch",
+            "mainClass": "DSA.DataStructures.BinaryTree.MorrisTraversal",
+            "projectName": "codespace_924310a9"
+        },
+        {
+            "type": "java",
             "name": "Launch BinaryTreeProgram",
             "request": "launch",
             "mainClass": "BinaryTreeProgram",
